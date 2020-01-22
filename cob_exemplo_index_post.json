@@ -1,0 +1,5 @@
+POST twitter/_doc/
+{
+    "user" : "Rodrigo",
+    "message" : "Testando Elasticsearch"
+} 

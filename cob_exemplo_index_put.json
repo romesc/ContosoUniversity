@@ -1,0 +1,5 @@
+PUT twitter/_doc/123456
+{
+    "user" : "Fernando",
+    "message" : "Testando Elasticsearch com ID"
+} 
