@@ -1,0 +1,11 @@
+GET /webservice/_search
+{
+  "size": 0,
+  "aggregations": {
+    "agrup_assessoria": {
+      "terms": {
+        "field": "id_assessoria"
+      }
+    }
+  }
+}
