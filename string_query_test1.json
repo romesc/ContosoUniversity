@@ -1,0 +1,8 @@
+GET /webservice/_search
+{
+  "query" : {
+    "query_string" : {
+      "query" : "Presidente Prudente"
+    }
+  }
+}
