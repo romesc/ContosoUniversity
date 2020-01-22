@@ -1,5 +1,5 @@
 GET /_analyze
 {
-    "analyzer" : “brazilian",
-    "text" : “Estamos treinando indexação e consulta no ElasticSearch!“
+    "analyzer" : "brazilian",
+    "text" : "Estamos treinando indexação e consulta no ElasticSearch!"
 }
