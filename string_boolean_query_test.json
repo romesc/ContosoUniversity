@@ -1,0 +1,17 @@
+GET /webservice/_search
+{
+  "query": {
+    "bool" : {
+      "must" : [ 
+        { "match" : { "geoip.city_name" : "Presidente Prudente" } },
+        { "match" : { "request" : "SalvarCliente" } }
+      ],
+      "should" : [
+        { "term" : { "id_operador" : "11621309" } },
+        { "term" : { "id_operador" : "11474047" } }
+      ],
+     "minimum_should_match" : 1
+    }
+  }
+}
+
