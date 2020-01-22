@@ -1,0 +1,9 @@
+GET /webservice/_search
+{
+  "query": {
+    "query_string": {
+      "query": "Presidente Prudente",
+      "fields": ["geoip.city_name", "request"]
+    }
+  }
+}
